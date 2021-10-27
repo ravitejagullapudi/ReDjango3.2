@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+
+{% if not created %}
+    {% if form.errors %}
+        {{form.errors.as_p}}
+    {% endif %}
+    <form method='POST' action='.'>
+        {% csrf_token %}
+        {{form.as_p}}
+        <button style='margin-top:10px;' type='submit'>Create Article</button>
+    </form>
+{% endif %}
+<a href="/">All Articles</a>
+
+{% endblock content %}
+

@@ -1,0 +1,6 @@
+Prepare Django for Digital Ocean App Platform
+https://www.codingforentrepreneurs.com/blog/prepare-django-for-digital-ocean-app-platform
+
+Deploy Django to Digital Ocean App Platform
+https://www.codingforentrepreneurs.com/blog/deploy-django-to-digitalocean-app-platform
+

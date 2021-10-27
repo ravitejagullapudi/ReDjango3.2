@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content%}
+    <h1>{{title}}</h1>
+    <p>{{content}}</p>
+    <ul>
+    {% for obj in article_querySet%} 
+        <li><a href="/articles/{{obj.id}}">{{obj.title}}</a></li>
+    {% endfor %}
+    <br/>
+    <a href="/articles/create">Create Article</a>
+
+    </ul>
+{% endblock content%}

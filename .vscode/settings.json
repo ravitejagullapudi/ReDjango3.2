@@ -1,0 +1,20 @@
+{
+  "python.linting.pylintEnabled": false,
+  "python.linting.enabled": true,
+  "python.linting.flake8Enabled": false,
+  "python.linting.banditEnabled": false,
+  "python.linting.pylintArgs": ["--enable=W0614"],
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true,
+      "source.fixAll": true
+    }
+  },
+  "files.associations": {
+    "**/*.html": "html",
+    "**/templates/**/*.html": "django-html",
+    "**/templates/**/*": "django-txt",
+    "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+  },
+  "emmet.includeLanguages": { "django-html": "html" }
+}
